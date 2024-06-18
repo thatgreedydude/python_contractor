@@ -1,4 +1,4 @@
-PyContractions
+Python_Contractor
 ==============
 
 A Python library for expanding and creating common English `contractions <https://en.wikipedia.org/wiki/Contraction_(grammar)>`_ in text.  This is very useful for dimensionality reduction by normalizing the text before generating word or character vectors.  It performs contraction by simple replacement rules of the commonly used English contractions.
@@ -139,13 +139,13 @@ Installation
 
 To install via pip::
 
-    $ pip install pycontractions
+    $ pip install python_contractor
 
 
 Prerequisites
 -------------
 
-- `language-check <https://github.com/myint/language-check>`_
+- `language_tool_python <https://github.com/jxmorris12/language_tool_python>`_
 - `gensim <http://radimrehurek.com/gensim/>`_
 
 language-check depends on the Java `LanguageTool <https://www.languagetool.org>`_ package, 
